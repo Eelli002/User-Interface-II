@@ -133,3 +133,91 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 }
+
+/*Styles for tablet at 800px*/
+@media (max-width: 800px) {
+    .head h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+    .head a {
+        margin: 0;
+    }
+    .head nav {
+        flex-direction: column;
+        margin: 0 19rem;
+    }
+
+    .section_top {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section_top img {
+        width: 90%;
+    } 
+    #My_First_Project, #Mountaintop_Project, #Reef_project, #Wildlife_Project, #Architecture_Project, #Canoe_Project, #River_Project, #Desert_Project {
+        width: 90%;
+    }
+
+    footer p{
+        font-size: 2.5rem;
+    }
+
+    footer a {
+        font-size: 1.5rem;
+    }
+
+    footer img {
+        height: 75px;
+        width: 75px;
+    }
+}
+
+/*Styles for phone at 500px*/
+@media (max-width:500px) {
+    .head h1 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .head nav {
+        flex-direction: column;
+        margin: 0 10rem;
+    }
+
+    .section_top {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section_top img {
+        width: 90%;
+    }
+
+    .container_1, .container_2 {
+        margin-bottom: 0rem;
+    }
+
+    .container_1 p, .container_2 p{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    #My_First_Project, #Mountaintop_Project, #Reef_project, #Wildlife_Project, #Architecture_Project, #Canoe_Project, #River_Project, #Desert_Project {
+        width: 65%;
+    }
+
+    footer p{
+        font-size: 2rem;
+    }
+
+    footer a {
+        font-size: 1rem;
+    }
+
+    footer img {
+        height: 50px;
+        width: 50px;
+    }
+}
